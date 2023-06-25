@@ -1,3 +1,4 @@
+puts "Welcome to the simple calculator!"
 # getting input from user
 
 puts "Enter the first number: "
@@ -18,5 +19,5 @@ elsif operator == "*"
 elsif operator == "/"
    print (num1 / num2)
 else
-   puts "Invalid operator"
+   puts "Invalid operator, Please try again!"
 end 
